@@ -1,16 +1,12 @@
 ```bash
-Array: A = [17, 48', 1, 2, 9, 18, 17, 29, 22, 5, 56', 34']
+Array: A = [17, 48, 1, 2, 9, 18, 17, 29, 22, 5, 56, 34]
 
-'Die Schritte'
+Das in der VL gezeigte verfahren hat von Klein > Groß sortiert.
 
-Der Heap wird mittels Top-Down-Methode aufgebaut, Bottom-Up wär möglich.
+                       1
+                  2         5
+              17    9    18    17
+            48 29 22 56         34
 
-                                56
-                                /\
-                            48        34
-                            /\        /\
-                        18     17  29    22
-                        /\     /\   \
-                      17  2   2  9   1
 
 ```
